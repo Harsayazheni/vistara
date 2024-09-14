@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.box{
+    padding: 20px 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-one{
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-one img{
+    height: 60px;
+
+}
+.section-one nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-one nav ul li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    justify-content: space-between;
+}
+.section-one div ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-one div ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-two input{
+    width: 85%;
+    border-radius: 20px;
+    padding: 5px;
+}
+.section-two button{
+    border-radius: 5px;
+    width: 5%;
+    margin-right: 10px;
+}
+.box p{
+    width: 100%;
+}
+.img{
+    width: 300px;
+}
+.product{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
